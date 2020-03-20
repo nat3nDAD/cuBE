@@ -1,0 +1,46 @@
+/* CSS Document */
+
+.image {
+  
+    width: 120px;
+    height: 120px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+*{
+	padding: 5px;
+}
+body{
+	font-family: 'Press Start 2P';
+}
+
+header{
+	text-align: center;
+	background-color: #A3A4AD;
+	color: #161313;
+}
+
+.p{
+	background-color:#A3A4AD ;
+	color:  #161313 ;
+	font-size: 1.5em;
+}
+
+.h{
+	text-align: center;
+	font-size: 2em;
+	background-color: #A3A4AD ;
+	color: #161313;
+}
+
+.page-colour{
+	background-color: #A3A4AD;
+}
+hr{
+	background-color:#27282B
+}
